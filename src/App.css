@@ -39,9 +39,10 @@
 }
 .container:hover .card-img{
     padding-top: 1vh;
-    transform: scale(1.1);
+    transform: scale(1.15);
     box-shadow: 5px 5px 5px;
-    transition: 0.2s;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out 2s;
 }
 .card-img{
     width: 25vw;
