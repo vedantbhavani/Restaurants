@@ -1,0 +1,72 @@
+*{
+    scrollbar-width: none;
+}
+.nav{
+    display: flex;
+    background-color:rgb(12, 12, 192);
+    width:30vw;
+    height: 4vh;
+    margin: 2vh auto;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    padding: 2vh 2vw;
+    color: white;
+}
+.inner-nav{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.inner-nav:hover{
+    cursor: pointer;
+    transition: 0.1s;
+    border-bottom: 2px solid white;
+    color: yellow;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5vw;
+    margin: 0 5vw ;
+}
+.container{
+    width: 25vw;
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 10px 5px 15px;
+    border-radius: 10px;
+}
+.container:hover .card-img{
+    padding-top: 1vh;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px;
+    transition: 0.2s;
+}
+.card-img{
+    width: 25vw;
+    height: 17vw;
+    box-sizing: border-box;
+}
+.title-name{
+    height: 3vh;
+    font-family: "Lugrasimo";
+}
+.title-desc{
+    font-family: "ubuntu";
+    text-align:initial;
+    padding: 0 5px;
+    height: 22vh;
+}
+.btn{
+    padding: 8px 25px;
+    margin: 0 0 3vh 0;
+    background-color:rgb(12, 12, 192);
+    color: white;
+    border-radius: 5vh;
+    font-weight: bold
+}
+.btn:hover{
+    background-color:rgb(0, 0, 148);
+    cursor: pointer;
+}
